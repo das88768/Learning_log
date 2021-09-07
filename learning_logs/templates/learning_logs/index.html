@@ -1,0 +1,16 @@
+{% extends "learning_logs/base.html" %}
+{% block page_header%}
+<div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, 
+    rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.9) 100%), url(https://placeimg.com/1000/480/tech)">
+    <h1 class="display-3">Track your learning.</h1>
+    
+    <p class="lead">Make your own Learning Log, and keep a list of the
+        topics you're learning about. Whenever you learn something new
+        about a topic, make an entry summarizing what you've learned.
+    </p>
+
+    <a class="btn btn-lg btn-success" href="{% url 'users:register' %}"
+        role="button">Register &raquo;
+    </a>  
+</div>
+{% endblock page_header%}
