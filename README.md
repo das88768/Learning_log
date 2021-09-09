@@ -5,4 +5,4 @@ The purpose of this project is to learn how to make real projects with python an
 Most of the code is from the above described book!, but I also develop most the code to look the app different from the main app.
 I customized the app in very good way with bootstrap4.
 
-This Project has been deployed to the Heroku, go and check it - [Link](https://log-the-learning.herokuapp.com/)
+This Project has been deployed to the Heroku, go and check it! - [Link](https://log-the-learning.herokuapp.com/)
